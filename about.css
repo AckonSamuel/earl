@@ -7,12 +7,13 @@
 #about {
     background-image: url('./assets/about/noise.svg')url('./assets/about/leftTop.svg'), url('./assets/about/rightTop.svg');
     background-repeat: repeat, no-repeat, no-repeat;
-    background-position: auto ,top left, top right;
+    background-position: auto, top left, top right;
 }
 
-#about > h2 {
+#about>h2 {
     margin-top: 9.92%;
     margin-left: 8.47%;
+    margin-right: 51.11%;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
@@ -20,4 +21,18 @@
     line-height: 101.1%;
     letter-spacing: -0.03em;
     color: #007640;
+}
+
+#about > p {
+    margin-top: 2.152%;
+    margin-left: 8.47%;
+    margin-right: 44.097%;
+    margin-bottom: 10.417%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.6;
 }
