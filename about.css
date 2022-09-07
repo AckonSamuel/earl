@@ -1,3 +1,15 @@
 #about {
-    background-image: ;
+    background-image: url('./assets/about/noise.svg')url('./assets/about/leftTop.svg'), url('./assets/about/rightTop.svg');
+    background-repeat: repeat, no-repeat, no-repeat;
+    background-position: auto ,top left, top right;
+}
+
+#about > h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 101.1%;
+    letter-spacing: -0.03em;
+    color: #007640;
 }
