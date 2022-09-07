@@ -67,6 +67,7 @@
     margin-top: 4.83%;
     margin-left: 16%;
     margin-right: auto;
+    margin-bottom: 14.652%;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -79,4 +80,40 @@
 .free {
     margin-top: 20.24%;
     margin-left: 16%;
+}
+
+.fans-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #039352;
+}
+
+.fan-info2>h3 {
+    margin-left: 16%;
+    margin-top: 9.21%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 100.1%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.fan-info2 > .lower {
+    margin-left: 16%;
+    margin-right: 16.667%;
+    margin-bottom: 26.586%;
+    margin-top: 4.44%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.9
+}
+
+.groupleft2 {
+    background-image: url('./assets/fans/spanbg.png');
 }
