@@ -118,7 +118,8 @@
     background-image: url('./assets/fans/spanbg.png');
 }
 
-.influ1 {
+.influ1,
+.influ2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: white;
@@ -151,4 +152,47 @@
 
 .influencerpill {
     margin-top: 25.831%;
+}
+
+.influcontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22.809%;
+    margin-left: 18.137%;
+    margin-right: 16%;
+}
+
+.influ2-info2 {
+    background-color: #202020;
+}
+
+.influ2-info2 > h3 {
+    margin-top: 5.33%;
+    margin-left: 18.137%;
+    margin-right: 16%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 101.1%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.influ2-info2> p {
+    margin-left: 18.137%;
+    margin-right: 16%;
+    margin-top: 4.834%;
+    margin-bottom: 18.75%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.influ22 {
+    background-color: #272727;
 }
