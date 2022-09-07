@@ -11,7 +11,7 @@
     background-position: contain, top left, top right;
 }
 
-#about > h2 {
+#about>h2 {
     margin-left: 8.47%;
     margin-right: 51.11%;
     font-family: 'DM Sans';
@@ -23,7 +23,7 @@
     color: #007640;
 }
 
-#about > p {
+#about>p {
     margin-top: 2.152%;
     margin-left: 8.47%;
     margin-right: 44.097%;
@@ -37,7 +37,7 @@
     opacity: 0.6;
 }
 
-.fan-info > h3 {
+.fan-info>h3 {
     margin-top: 7.1%;
     margin-left: 16%;
     margin-right: auto;
@@ -100,7 +100,7 @@
     color: #FFFFFF;
 }
 
-.fan-info2 > .lower {
+.fan-info2>.lower {
     margin-left: 16%;
     margin-right: 16.667%;
     margin-bottom: 26.586%;
@@ -116,4 +116,39 @@
 
 .groupleft2 {
     background-image: url('./assets/fans/spanbg.png');
+}
+
+.influ1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+}
+
+.influ1-info2>h3 {
+    margin-top: 6%;
+    margin-right: 32.361%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 101.1%;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.influ1-info2 > p {
+    margin-top: 4.834%;
+    margin-right: 32.361%;
+    margin-bottom: 24.018%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #121212;
+    opacity: 0.6;
+}
+
+.influencerpill {
+    margin-top: 25.831%;
 }
