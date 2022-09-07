@@ -5,13 +5,13 @@
 }
 
 #about {
-    background-image: url('./assets/about/noise.svg')url('./assets/about/leftTop.svg'), url('./assets/about/rightTop.svg');
+    padding-top: 9.92%;
+    background-image: url('./assets/fans/spanbg.png'), url('./assets/about/leftTop.svg'), url('./assets/about/rightTop.svg');
     background-repeat: repeat, no-repeat, no-repeat;
-    background-position: auto, top left, top right;
+    background-position: contain, top left, top right;
 }
 
-#about>h2 {
-    margin-top: 9.92%;
+#about > h2 {
     margin-left: 8.47%;
     margin-right: 51.11%;
     font-family: 'DM Sans';
@@ -23,11 +23,11 @@
     color: #007640;
 }
 
-#about>p {
+#about > p {
     margin-top: 2.152%;
     margin-left: 8.47%;
     margin-right: 44.097%;
-    margin-bottom: 10.417%;
+    padding-bottom: 10.417%;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -37,7 +37,7 @@
     opacity: 0.6;
 }
 
-.fan-info>h3 {
+.fan-info > h3 {
     margin-top: 7.1%;
     margin-left: 16%;
     margin-right: auto;
