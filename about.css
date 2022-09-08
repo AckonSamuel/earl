@@ -1,198 +1,197 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #about {
-    padding-top: 9.92%;
-    background-image: url('./assets/fans/spanbg.png'), url('./assets/about/leftTop.svg'), url('./assets/about/rightTop.svg');
-    background-repeat: repeat, no-repeat, no-repeat;
-    background-position: contain, top left, top right;
+  padding-top: 9.92%;
+  background-image: url('./assets/fans/spanbg.png'), url('./assets/about/leftTop.svg'), url('./assets/about/rightTop.svg');
+  background-repeat: repeat, no-repeat, no-repeat;
+  background-position: contain, top left, top right;
 }
 
-#about>h2 {
-    margin-left: 8.47%;
-    margin-right: 51.11%;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 72px;
-    line-height: 101.1%;
-    letter-spacing: -0.03em;
-    color: #007640;
+#about > h2 {
+  margin-left: 8.47%;
+  margin-right: 51.11%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #007640;
 }
 
-#about>p {
-    margin-top: 2.152%;
-    margin-left: 8.47%;
-    margin-right: 44.097%;
-    padding-bottom: 10.417%;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: #000000;
-    opacity: 0.6;
+.influ1-info2 > p {
+  margin-top: 4.834%;
+  margin-right: 32.361%;
+  margin-bottom: 24.018%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #121212;
+  opacity: 0.6;
 }
 
-.fan-info>h3 {
-    margin-top: 7.1%;
-    margin-left: 16%;
-    margin-right: auto;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 68px;
-    line-height: 101.1%;
-    letter-spacing: -0.03em;
-    color: #121212;
+.influ2-info2 > p {
+  margin-left: 18.137%;
+  margin-right: 16%;
+  margin-top: 4.834%;
+  margin-bottom: 18.75%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #fff;
+  opacity: 0.6;
+}
+
+#about > p {
+  margin-top: 2.152%;
+  margin-left: 8.47%;
+  margin-right: 44.097%;
+  padding-bottom: 10.417%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000;
+  opacity: 0.6;
+}
+
+.fan-info > h3 {
+  margin-top: 7.1%;
+  margin-left: 16%;
+  margin-right: auto;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #121212;
 }
 
 .fans-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-
 .groupleft {
-    background-image: url('./assets/fans/groupleft.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 55.83% 72.24%;
+  background-image: url('./assets/fans/groupleft.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55.83% 72.24%;
 }
 
 .lower {
-    margin-top: 4.83%;
-    margin-left: 16%;
-    margin-right: auto;
-    margin-bottom: 14.652%;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: #121212;
-    opacity: 0.6;
+  margin-top: 4.83%;
+  margin-left: 16%;
+  margin-right: auto;
+  margin-bottom: 14.652%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #121212;
+  opacity: 0.6;
 }
 
 .free {
-    margin-top: 20.24%;
-    margin-left: 16%;
+  margin-top: 20.24%;
+  margin-left: 16%;
 }
 
 .fans-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #039352;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #039352;
 }
 
-.fan-info2>h3 {
-    margin-left: 16%;
-    margin-top: 9.21%;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 68px;
-    line-height: 100.1%;
-    letter-spacing: -0.03em;
-    color: #FFFFFF;
+.fan-info2 > h3 {
+  margin-left: 16%;
+  margin-top: 9.21%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 100.1%;
+  letter-spacing: -0.03em;
+  color: #fff;
 }
 
-.fan-info2>.lower {
-    margin-left: 16%;
-    margin-right: 16.667%;
-    margin-bottom: 26.586%;
-    margin-top: 4.44%;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 150%;
-    color: #FFFFFF;
-    opacity: 0.9
+.fan-info2 > .lower {
+  margin-left: 16%;
+  margin-right: 16.667%;
+  margin-bottom: 26.586%;
+  margin-top: 4.44%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #fff;
+  opacity: 0.9;
 }
 
 .groupleft2 {
-    background-image: url('./assets/fans/spanbg.png');
+  background-image: url('./assets/fans/spanbg.png');
 }
 
 .influ1,
 .influ2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
 }
 
-.influ1-info2>h3 {
-    margin-top: 6%;
-    margin-right: 32.361%;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 68px;
-    line-height: 101.1%;
-    letter-spacing: -0.03em;
-    color: #121212;
-}
-
-.influ1-info2 > p {
-    margin-top: 4.834%;
-    margin-right: 32.361%;
-    margin-bottom: 24.018%;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: #121212;
-    opacity: 0.6;
+.influ1-info2 > h3 {
+  margin-top: 6%;
+  margin-right: 32.361%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #121212;
 }
 
 .influencerpill {
-    margin-top: 25.831%;
+  margin-top: 25.831%;
 }
 
 .influcontainer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 22.809%;
-    margin-left: 18.137%;
-    margin-right: 16%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22.809%;
+  margin-left: 18.137%;
+  margin-right: 16%;
 }
 
 .influ2-info2 {
-    background-color: #202020;
+  background-color: #202020;
 }
 
 .influ2-info2 > h3 {
-    margin-top: 5.33%;
-    margin-left: 18.137%;
-    margin-right: 16%;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 68px;
-    line-height: 101.1%;
-    letter-spacing: -0.03em;
-    color: #FFFFFF;
-}
-
-.influ2-info2> p {
-    margin-left: 18.137%;
-    margin-right: 16%;
-    margin-top: 4.834%;
-    margin-bottom: 18.75%;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: #FFFFFF;
-    opacity: 0.6;
+  margin-top: 5.33%;
+  margin-left: 18.137%;
+  margin-right: 16%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #fff;
 }
 
 .influ22 {
-    background-color: #272727;
+  background-color: #272727;
 }
