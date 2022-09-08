@@ -1,3 +1,7 @@
+footer {
+    margin-bottom: 80px;
+}
+
 footer p {
   margin-left: 27.3%;
   margin-right: 12%;
@@ -67,12 +71,12 @@ form input {
   margin-right: -30%;
 }
 
-ul {
-  list-style: none;
-  text-align: justify;
+.group2 .links {
+  display: flex;
+  flex-direction: column;
 }
 
-ul strong {
+.links strong {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -82,7 +86,7 @@ ul strong {
   margin-bottom: 32px;
 }
 
-ul li {
+.links a {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;

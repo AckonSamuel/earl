@@ -5,15 +5,28 @@
 }
 
 #about {
-  padding-top: 9.92%;
-  background-image: url('./assets/fans/spanbg.png'), url('./assets/about/leftTop.svg'), url('./assets/about/rightTop.svg');
-  background-repeat: repeat, no-repeat, no-repeat;
-  background-position: contain, top left, top right;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-image: url('./assets/fans/noise.png');
+  
 }
 
-#about > h2 {
-  margin-left: 8.47%;
-  margin-right: 51.11%;
+#about .mapoi {
+  background-image: url('./assets/about/leftTop.svg');
+  background-repeat: no-repeat;
+  background-position: 10% 16%;
+}
+
+#about .map {
+  background-image: url('./assets/about/shapeleft.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 4% 11.5%;
+}
+
+.mapoi h2 {
+  margin-top: 20%;
+  margin-left: 16%;
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -25,7 +38,6 @@
 
 .influ1-info2 > p {
   margin-top: 4.834%;
-  margin-right: 32.361%;
   margin-bottom: 24.018%;
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
@@ -50,11 +62,11 @@
   opacity: 0.6;
 }
 
-#about > p {
+.mapoi p {
   margin-top: 2.152%;
-  margin-left: 8.47%;
-  margin-right: 44.097%;
-  padding-bottom: 10.417%;
+  margin-left: 16%;
+  margin-right: 9%;
+  padding-bottom:20%;
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -194,4 +206,14 @@
 
 .influ22 {
   background-color: #272727;
+  background-image: url('./assets/influencer/frame42.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.influ12 {
+  background-color: #fff;
+  background-image: url('./assets/influencer/mate_2.svg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
