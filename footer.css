@@ -1,0 +1,97 @@
+footer p {
+    margin-left: 27.3%;
+    margin-right: 12%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 150%;
+    color: #121212;
+}
+
+form {
+    display: flex;
+    margin-right: 8.333%;
+    margin-left: 27.3%;
+    margin-top: 37px;
+}
+
+form input {
+    box-sizing: border-box;
+    width: 73%;
+    height: 56px;
+    border: 1px solid rgba(18, 18, 18, 0.3);
+    border-radius: 10px 0 0 10px;
+    padding: 14px;
+}
+
+form button {
+    width: 25%;
+height: 56px;
+background: #121212;
+border-radius: 0px 10px 10px 0px;
+font-family: 'Neue Haas Grotesk Display Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #FFFFFF;
+padding: 14px;
+}
+
+input::placeholder,
+form input {
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: rgba(0, 0, 0, 0.75);
+}
+
+.group2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 8.3%;
+    margin-right: 10%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexit {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: 31.4px;
+    margin-right: -30%;
+}
+
+ul {
+    list-style: none;
+    text-align: justify;
+}
+
+ul strong {
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+color: #121212;
+margin-bottom: 32px;
+}
+
+ul li {
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 165.4%;
+letter-spacing: 0.02em;
+color: #121212;
+margin-bottom: 24px;
+
+}
