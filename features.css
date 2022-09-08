@@ -19,24 +19,24 @@
 
 .comp {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 9%; 
+    grid-template-columns: 1fr 1.5fr;
+    z-index: 10;
 }
 
 .words {
     display: grid;
     grid-template-columns: 1fr 22fr;
-    padding-top: 8.23%;
+    margin-top: 20%;
     margin-left: 23.47%;
     padding-bottom: 50%;
 }
 
 .wordlist {
     margin-left: 4.44%;
-    margin-right: 14.44%;
 }
 
 .listpot1 {
+    margin-top: 5%;
     margin-bottom: 2.941%;
     font-family: 'DM Sans';
     font-style: normal;
@@ -58,19 +58,71 @@
 }
 
 .chainlink {
+    height: 100%;
     margin-top: 50%;
+    padding-top: 50%;
 }
 
 .dooo {
-    margin-bottom: 21%;
+    margin-bottom: 22%;
+}
+
+.doo3 {
+    margin-bottom: 50%;
 }
 
 .text {
     background-image: url('./assets/features/mate41.svg');
-    background-position: left;
-    margin-right: 15%;
-    background-size: cover;
+    background-position: left top;
+    margin-right: 7%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
+.green {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    position: relative;
+    z-index: 1000;
+    margin-top: -20.5%;
+    background-image: url('./assets/features/bgpic.png');
+    margin-left: 7.33%;
+    margin-right: 7.33%;
+    border-radius: 100px;
+}
 
+.come>h3 {
+    margin-left: 4.583%;
+    margin-right: 16.3%;
+    padding-top: 11.25%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 102.6%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.come > p {
+    margin-top: 5.13%;
+    margin-left: 4.583%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.io {
+    margin-right: 16%;
+    margin-bottom: 24.4%;
+    gap: 0%;
+}
+
+.bench {
+    background-image: url('./assets/features/chat.svg'), url('./assets/features/hand_phone.svg');
+    background-repeat: no-repeat;
+    background-position: 81% 33%, bottom right;
+}
