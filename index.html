@@ -1,34 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="features.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
+
 <body>
     <section id="hero">
         <header>
-            <div></div>
+            <img src="./assets/hero/logo.svg" alt="logo" id="logo" tabindex="0"></img>
             <nav>
-                <a>Home</a>
-                <a>For Fans</a>
-                <a>For influencers</a>
-                <a>Features</a>
-                <a>FAQ's</a>
+                <a tabindex="0" href="#">Home</a>
+                <a tabindex="0" href="#fans">For Fans</a>
+                <a tabindex="0" href="#influencer">For influencers</a>
+                <a tabindex="0" href="#features">Features</a>
+                <a tabindex="0" href="#">FAQ's</a>
             </nav>
         </header>
-        <div class="banner">
-            <h1>Build direct, meaningful connections.</h1>
-            <small>Ear1 helps you connect directly with your favourite influencers for a small fee. Whats more? We assure you of getting a reply.</small>
-            <div class="buttons">
-                <button></button>
-                <button></button>
+        <div class="banner" tabindex="0">
+            <div>
+                <h1>Build direct, meaningful connections.</h1>
+                <h2>Ear1 helps you connect directly with your favourite influencers for a small fee. What's more? We
+                    assure you of getting a reply.</h2>
+                <div class="buttons">
+                    <button aria-label="playstore_button" class="download">
+                        <img src="./assets/hero/playstore_button.svg" alt="playstore"></img>
+                    </button>
+                    <button class="download" aria-label="appstore_button">
+                        <img src="./assets/hero/appstore_button.svg" alt="appstore"></img>
+                    </button>
+                </div>
             </div>
             <div class="mates">
-                
             </div>
         </div>
     </section>
+    <section id="about" tabindex="0">
+        <div class="mapoi">
+            <h2>
+            What can Ear1 help you do?
+        </h2>
+        <p>Are you an individual
+            looking to connect with an
+            influencer without the hassle of waiting for the reply over a long time, or an influencer looking to filter
+            your dm's and connect with your audience, Ear1 has got you covered.</p>
+        </div>
+        <div class="map"></div>
+    </section>
+    <section id="fans">
+        <div class="fans-1" tabindex="0">
+            <div class="fan-info">
+                <img class="free" src="./assets/fans/fanpill.svg" alt="fanpill">
+                <h3>Connect with top influencers in your field</h3>
+                <p class="lower">From Tech to music to business,
+                    Ear1 has a wide range of industry
+                    experts in diverse fields
+                    you have always wanted to connect with.
+                    Now is your best chance.</p>
+            </div>
+            <div class="groupleft">
+            </div>
+        </div>
+        <div class="fans-2" tabindex="0">
+            <div class="fan-info2">
+                <div class="pillcontainer">
+                <img src="./assets/fans/fanpill.svg" alt="fanpill">
+                <img src="./assets/fans/chat.svg" alt="" class="pillright">
+            </div>
+                <h3 class="assured">Be assured of replies</h3>
+                <p class="lower">With ear1, we assure you of getting a response to your messages.
+                    Don't be part of the noise in the dms.
+                    Get ahead of the game by paying a small fee. </p>
+            </div>
+            <div class="groupleft2">
+                <div class="chat">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="influencer">
+        <div class="influ1" tabindex="0">
+            <div class="influ12"></div>
+            <div class="influ1-info2">
+                <img class="influencerpill" src="./assets/influencer/Influencerpill.svg" alt="influencerpill">
+                <h3>Earn money while you chat</h3>
+                <p>As an influencer, you get paid by your audience to connect with them. That way to maximize time while
+                    earning. </p>
+            </div>
+        </div>
+        <div class="influ2" tabindex="0">
+            <div class="influ22"></div>
+            <div class="influ2-info2">
+                <div class="influcontainer">
+                    <img class="influencerpill2" src="./assets/influencer/Influencerpill.svg" alt="influencerpill">
+                    <img class="filterpill" src="./assets/influencer/filtericon.svg" alt="filter">
+                </div>
+                <h3>Filter the noise in the dm's</h3>
+                <p>Ear1 helps you get rid of all the noise in your dm's across other social media apps.
+                    This way, you are sure to connect with serious
+                    people and make genuine business and personal connections.</p>
+            </div>
+        </div>
+    </section>
+    <section id="features" tabindex="0">
+        <div class="white">
+            <h3>The ear1 assurance</h3>
+            <div class="comp">
+                <div class="words">
+                    <div class="chainlink">
+                        <img src="./assets/features/chainlink.svg" alt="chainlink">
+                    </div>
+                    <div class="wordlist">
+                        <div class="listpot">
+                            <p class="listpot1">Ease of Use</p>
+                            <p class="listpot2 dooo">With as simple of 3 steps, you can get started using ear1.</p>
+                        </div>
+                        <div class="listpot">
+                            <p class="listpot1">Multi currency support</p>
+                            <p class="listpot2 dooo">Ear1 allows you to pay with a wide range of currencies.</p>
+                        </div>
+                        <div class="listpot">
+                            <p class="listpot1">Secure communication</p>
+                            <p class="listpot2 doo3">State of the art end to end encryption of messages.
+                                No weird sort of tracking. Your privacy is our concern.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="text"></div>
+            </div>
+            <div class="green">
+                <div class="bench"></div>
+                <div class="come">
+                    <h3>Get ahead of your game</h3>
+                    <p>Save time and effort. Ear1 is your best choice.</p>
+                    <div class="buttons io">
+                        <button class="download" aria-label="playstore_button">
+                            <img src="./assets/hero/playstore_button.svg" alt="playstore">
+                        </button>
+                        <button class="download" aria-label="appstore_button">
+                            <img src="./assets/hero/appstore_button.svg" alt="appstore">
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <hr>
+        <div class="group1">
+            <p><strong>Be in the know.</strong> Get access to amazing offers and discounts</p>
+            <form>
+                <input placeholder="Enter your email address" type="email" name="email" id="email">
+                <button aria-label="submit" type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="group2">
+            <div class="social">
+                <img tabindex="0" src="./assets/footer/minilogo.svg" alt="minilogo">
+                <div class="flexit">
+                    <img tabindex="0" src="./assets/footer/fb.svg" alt="facebook">
+                    <img tabindex="0" src="./assets/footer/twitter.svg" alt="twitter">
+                    <img tabindex="0" src="./assets/footer/ig.svg" alt="ig">
+                </div>
+            </div>
+            <div class="links">
+                <span><strong>Links</strong></span>
+                <a tabindex="0" href="#">Home</a>
+                <a tabindex="0" href="#">For Fans</a>
+                <a tabindex="0" href="#">For influencers</a>
+                <a tabindex="0" href="#">FAQ's</a>
+            </div>
+            <div class="links"><span><strong>Get help</strong></span>
+                <a tabindex="0" href="#">Support</a>
+                <a tabindex="0" href="#">FAQ's</a>
+                <a tabindex="0" href="#">Partnership</a>
+            </div>
+            <div class="links"><span><strong>Download</strong></span>
+                <a tabindex="0" href="#">Android</a>
+                <a tabindex="0" href="#">iOS</a>
+            </div>
+            <div class="links"><span><strong>Resources</strong></span>
+                <a tabindex="0" href="#">Terms of service</a>
+                <a tabindex="0" href="#">Privacy policy</a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
