@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://deploy-preview-2--cerulean-gelato-2bc2d4.netlify.app/)
 
 
 ## Getting Started
