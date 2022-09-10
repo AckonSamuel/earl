@@ -22,7 +22,7 @@ html {
 .mates {
   margin-top: 2.3%;
   height: 100%;
-  background-image: url(./assets/hero/mate_straightup.png), url(./assets/hero/mate_slide_left.svg), url(./assets/hero/mate_slide_right.svg);
+  background-image: url(./assets/hero/mate_straightup.png), url(./assets/hero/mate_slide_left.png), url(./assets/hero/mate_slide_right.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: 43% 0%, 30% 900%, 60% 0%;
   background-size: contain, contain, contain;
