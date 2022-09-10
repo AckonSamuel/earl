@@ -18,25 +18,25 @@
 <body>
     <section id="hero">
         <header>
-            <img src="./assets/hero/logo.svg" alt="logo" id="logo"></img>
+            <img src="./assets/hero/logo.svg" alt="logo" id="logo" tabindex="0"></img>
             <nav>
-                <a>Home</a>
-                <a>For Fans</a>
-                <a>For influencers</a>
-                <a>Features</a>
-                <a>FAQ's</a>
+                <a tabindex="0" href="#">Home</a>
+                <a tabindex="0" href="#fans">For Fans</a>
+                <a tabindex="0" href="#influencer">For influencers</a>
+                <a tabindex="0" href="#features">Features</a>
+                <a tabindex="0" href="#">FAQ's</a>
             </nav>
         </header>
-        <div class="banner">
+        <div class="banner" tabindex="0">
             <div>
                 <h1>Build direct, meaningful connections.</h1>
                 <h2>Ear1 helps you connect directly with your favourite influencers for a small fee. Whats more? We
                     assure you of getting a reply.</h2>
                 <div class="buttons">
-                    <button class="download">
+                    <button aria-label="playstore_button" class="download">
                         <img src="./assets/hero/playstore_button.svg"></img>
                     </button>
-                    <button class="download">
+                    <button class="download" aria-label="appstore_button">
                         <img src="./assets/hero/appstore_button.svg"></img>
                     </button>
                 </div>
@@ -45,7 +45,7 @@
             </div>
         </div>
     </section>
-    <section id="about">
+    <section id="about" tabindex="0">
         <div class="mapoi">
             <h2>
             What can Ear1 help you do?
@@ -58,7 +58,7 @@
         <div class="map"></div>
     </section>
     <section id="fans">
-        <div class="fans-1">
+        <div class="fans-1" tabindex="0">
             <div class="fan-info">
                 <img class="free" src="./assets/fans/fanpill.svg" alt="fanpill">
                 <h3>Connect with top influencers in your field</h3>
@@ -71,9 +71,12 @@
             <div class="groupleft">
             </div>
         </div>
-        <div class="fans-2">
+        <div class="fans-2" tabindex="0">
             <div class="fan-info2">
-                <img class="free" src="./assets/fans/fanpill.svg" alt="fanpill">
+                <div class="pillcontainer">
+                <img src="./assets/fans/fanpill.svg" alt="fanpill">
+                <img src="./assets/fans/chat.svg" alt="" class="pillright">
+            </div>
                 <h3 class="assured">Be assured of replies</h3>
                 <p class="lower">With ear1, we assure you of getting a response to your messages.
                     Dont be part of the noise in the dms.
@@ -81,17 +84,12 @@
             </div>
             <div class="groupleft2">
                 <div class="chat">
-                    <div class="one"></div>
-                    <div class="two"></div>
-                    <div class="three"></div>
-                    <div class="four"></div>
-                    <div class="five"></div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="influencer">
-        <div class="influ1">
+    <section id="influencer">
+        <div class="influ1" tabindex="0">
             <div class="influ12"></div>
             <div class="influ1-info2">
                 <img class="influencerpill" src="./assets/influencer/Influencerpill.svg" alt="influencerpill">
@@ -100,7 +98,7 @@
                     earning. </p>
             </div>
         </div>
-        <div class="influ2">
+        <div class="influ2" tabindex="0">
             <div class="influ22"></div>
             <div class="influ2-info2">
                 <div class="influcontainer">
@@ -114,7 +112,7 @@
             </div>
         </div>
     </section>
-    <section class="features">
+    <section id="features" tabindex="0">
         <div class="white">
             <h3>The ear1 assurance</h3>
             <div class="comp">
@@ -147,52 +145,53 @@
                     <h3>Get ahead of your game</h3>
                     <p>Save time and effort. Ear1 is your best choice.</p>
                     <div class="buttons io">
-                        <button class="download">
-                            <img src="./assets/hero/playstore_button.svg"></img>
+                        <button class="download" aria-label="playstore_button">
+                            <img src="./assets/hero/playstore_button.svg" alt="playstore">
                         </button>
-                        <button class="download">
-                            <img src="./assets/hero/appstore_button.svg"></img>
+                        <button class="download" aria-label="appstore_button">
+                            <img src="./assets/hero/appstore_button.svg" alt="appstore">
                         </button>
                     </div>
                 </div>
             </div>
     </section>
     <footer>
+        <hr>
         <div class="group1">
             <p><strong>Be in the know.</strong> Get access to amazing offers and discounts</p>
             <form>
                 <input placeholder="Enter your email address" type="email" name="email" id="email">
-                <button type="submit">Submit</button>
+                <button aria-label="submit" type="submit">Submit</button>
             </form>
         </div>
         <div class="group2">
             <div class="social">
-                <img src="./assets/footer/minilogo.svg" alt="minilogo">
+                <img tabindex="0" src="./assets/footer/minilogo.svg" alt="minilogo">
                 <div class="flexit">
-                    <img src="./assets/footer/fb.svg" alt="facebook">
-                    <img src="./assets/footer/twitter.svg" alt="twitter">
-                    <img src="./assets/footer/ig.svg" alt="ig">
+                    <img tabindex="0" src="./assets/footer/fb.svg" alt="facebook">
+                    <img tabindex="0" src="./assets/footer/twitter.svg" alt="twitter">
+                    <img tabindex="0" src="./assets/footer/ig.svg" alt="ig">
                 </div>
             </div>
             <div class="links">
-                <a><strong>Links</strong></a>
-                <a>Home</a>
-                <a>For Fans</a>
-                <a>For influencers</a>
-                <a>FAQ's</a>
+                <span><strong>Links</strong></span>
+                <a tabindex="0" href="#">Home</a>
+                <a tabindex="0" href="#">For Fans</a>
+                <a tabindex="0" href="#">For influencers</a>
+                <a tabindex="0" href="#">FAQ's</a>
             </div>
-            <div class="links"><a><strong>Get help</strong></a>
-                <a>Support</a>
-                <a>FAQ's</a>
-                <a>Partnership</a>
+            <div class="links"><span><strong>Get help</strong></span>
+                <a tabindex="0" href="#">Support</a>
+                <a tabindex="0" href="#">FAQ's</a>
+                <a tabindex="0" href="#">Partnership</a>
             </div>
-            <div class="links"><a><strong>Download</strong></a>
-                <a>Android</a>
-                <a>iOS</a>
+            <div class="links"><span><strong>Download</strong></span>
+                <a tabindex="0" href="#">Android</a>
+                <a tabindex="0" href="#">iOS</a>
             </div>
-            <div class="links"><a><strong>Resources</strong></a>
-                <a>Terms of service</a>
-                <a>Privacy policy</a>
+            <div class="links"><span><strong>Resources</strong></span>
+                <a tabindex="0" href="#">Terms of service</a>
+                <a tabindex="0" href="#">Privacy policy</a>
             </div>
         </div>
     </footer>

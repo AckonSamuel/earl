@@ -2,9 +2,16 @@ footer {
     margin-bottom: 80px;
 }
 
+footer hr {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-left: 7.33%;
+  margin-right: 7.33%;
+}
+
 footer p {
-  margin-left: 27.3%;
+  margin-left: 31%;
   margin-right: 12%;
+  margin-top: 63px;
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -15,8 +22,8 @@ footer p {
 
 form {
   display: flex;
-  margin-right: 8.333%;
-  margin-left: 27.3%;
+  margin-right: 6.3%;
+  margin-left: 31%;
   margin-top: 37px;
 }
 
@@ -33,6 +40,7 @@ form button {
   width: 25%;
   height: 56px;
   background: #121212;
+  border: none;
   border-radius: 0 10px 10px 0;
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
@@ -58,9 +66,13 @@ form input {
 .group2 {
   display: flex;
   margin-left: 8.3%;
-  margin-right: 10%;
+  margin-right: 8%;
   margin-top: 80px;
   justify-content: space-between;
+}
+
+.social {
+  margin-right: 5%;
 }
 
 .flexit {
@@ -76,7 +88,7 @@ form input {
   flex-direction: column;
 }
 
-.links strong {
+.links span {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -95,4 +107,10 @@ form input {
   letter-spacing: 0.02em;
   color: #121212;
   margin-bottom: 24px;
+  text-decoration: none;
+}
+
+.links a:focus, 
+.links a:hover {
+  text-decoration: underline;
 }

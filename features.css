@@ -93,7 +93,7 @@
 }
 
 .come > h3 {
-  margin-left: 4.583%;
+  margin-left: 11.5%;
   margin-right: 16.3%;
   padding-top: 18.25%;
   font-family: 'DM Sans', sans-serif;
@@ -107,7 +107,7 @@
 
 .come > p {
   margin-top: 5.13%;
-  margin-left: 4.583%;
+  margin-left: 12%;
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -118,6 +118,7 @@
 
 .io {
   margin-right: 16%;
+  margin-left: 10%;
   margin-bottom: 24.4%;
   gap: 0%;
 }
@@ -125,8 +126,9 @@
 .bench {
   background-image: url('./assets/features/text_phone.png');
   background-repeat: no-repeat;
-  background-position: right top;
-  background-size: cover;
+  background-position: 100% 50%;
+  background-size: contain;
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
+  margin-right: -19%;
 }

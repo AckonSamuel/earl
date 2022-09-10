@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 .banner {
   display: grid;
   grid-template-rows: 2fr 1fr;
@@ -37,13 +42,25 @@ header {
 nav {
   display: flex;
   margin-top: 4.2361%;
+  gap: 2.5rem;
+}
+
+nav a {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 116.6%;
   color: #fff;
-  gap: 2.5rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a:focus {
+  text-decoration: underline;
 }
 
 h1 {
