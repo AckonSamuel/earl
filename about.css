@@ -95,7 +95,7 @@
 }
 
 .groupleft {
-  background-image: url('./assets/fans/groupleft.svg');
+  background-image: url('./assets/fans/groupleft.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 55.83% 72.24%;
@@ -216,14 +216,14 @@
 
 .influ22 {
   background-color: #272727;
-  background-image: url('./assets/influencer/frame42.svg');
+  background-image: url('./assets/influencer/frame42.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .influ12 {
   background-color: #fff;
-  background-image: url('./assets/influencer/mate_2.svg');
+  background-image: url('./assets/influencer/mate_2.png');
   background-repeat: no-repeat;
   background-position: center bottom;
 }
