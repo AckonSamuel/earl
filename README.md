@@ -19,39 +19,25 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Clone the repository
+run this in the terminal `git clone https://www.github.com/AckonSamuel/earl.git`
 
-### Setup
+### Open the directory 
+run `cd <relative path>/earl/` or any other way.
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+### View page in the browser
+Open the index.html file in the browser to view.
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@AckonSamuel](https://github.com/AckonSamuel)
+- Twitter: [@AckonSamuel2](https://twitter.com/AckonSamuel2)
+- LinkedIn: [Ackon Samuel](https://linkedin.com/in/samuel-yaw-ackon/)
 
 ## 🤝 Contributing
 
@@ -65,9 +51,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- I got all the template colors, font, layout distribution for the whole project [here](https://www.figma.com/file/IuP65ODyCcBW6ACWDjElPG/Frontend-Challenge?node-id=0%3A1) on Figma.
 
 ## 📝 License
 
