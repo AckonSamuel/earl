@@ -1,5 +1,5 @@
 footer {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 footer hr {
@@ -110,7 +110,7 @@ form input {
   text-decoration: none;
 }
 
-.links a:focus, 
+.links a:focus,
 .links a:hover {
   text-decoration: underline;
 }
