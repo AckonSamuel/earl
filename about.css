@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#about {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-image: url('./assets/fans/noise.png');
+}
+
+#about .mapoi {
+  background-image: url('./assets/about/leftTop.svg');
+  background-repeat: no-repeat;
+  background-position: 10% 16%;
+}
+
+#about .map {
+  background-image: url('./assets/about/shapeleft.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 4% 12%;
+}
+
+.mapoi h2 {
+  margin-top: 20%;
+  margin-left: 16%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #007640;
+}
+
+.influ1-info2 > p {
+  margin-top: 4.834%;
+  margin-bottom: 24.018%;
+  margin-right: 32.361%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #121212;
+  opacity: 0.6;
+}
+
+.influ2-info2 > p {
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-top: 4.834%;
+  margin-bottom: 18.75%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.mapoi p {
+  margin-top: 2.152%;
+  margin-left: 16%;
+  margin-right: 9%;
+  padding-bottom: 20%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000;
+  opacity: 0.6;
+}
+
+.fan-info > h3 {
+  margin-top: 7.1%;
+  margin-left: 16%;
+  margin-right: auto;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+.fans-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.groupleft {
+  background-image: url('./assets/fans/groupleft.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 55.83% 72.24%;
+}
+
+.pillcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 16%;
+  margin-right: 16.66%;
+  margin-top: 18%;
+}
+
+.fan-info .lower {
+  margin-top: 4.83%;
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-bottom: 14.652%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #121212;
+  opacity: 0.6;
+}
+
+.free {
+  margin-left: 16%;
+  margin-top: 18%;
+}
+
+.fans-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #039352;
+}
+
+.fan-info2 > h3 {
+  margin-left: 16%;
+  margin-top: 6%;
+  margin-right: 16.66%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 100.1%;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.fan-info2 > .lower {
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-bottom: 24%;
+  margin-top: 4%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.groupleft2 {
+  background: url('./assets/fans/htht.png') no-repeat;
+  background-size: cover;
+}
+
+.influ1,
+.influ2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+}
+
+.influ1-info2 > h3 {
+  margin-top: 6%;
+  margin-right: 32.361%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+.influencerpill {
+  margin-top: 25.831%;
+}
+
+.influcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16%;
+  margin-left: 16%;
+  margin-right: 16%;
+}
+
+.influ2-info2 {
+  background-color: #202020;
+}
+
+.influ2-info2 > h3 {
+  margin-top: 5.33%;
+  margin-left: 16%;
+  margin-right: 16%;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.influ22 {
+  background-color: #272727;
+  background-image: url('./assets/influencer/frame42.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.influ12 {
+  background-color: #fff;
+  background-image: url('./assets/influencer/mate_2.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
